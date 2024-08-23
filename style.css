@@ -1,0 +1,17 @@
+button{
+     
+    border-radius: 20px;
+    background-color: orange;
+    color:black;
+    transition-property: all;
+    transition-duration: 0.4s;
+    padding:20px ;
+   
+}
+button:hover{
+
+    background-color: black;
+    color:white;
+}
+
+
