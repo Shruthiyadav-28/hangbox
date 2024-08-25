@@ -1,0 +1,102 @@
+
+
+.container{
+    display: flex;
+    justify-content:  center;
+ align-items: center;
+ padding-top: 200px;
+ background-image: url("https://t3.ftcdn.net/jpg/05/71/57/66/360_F_571576615_hzrg8iVMWfgrvxp7AJkoVw2BvM2AfJG4.jpg" );
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 30px;
+  
+   
+ 
+
+}.sudo {
+    width: 230px;
+    height: 195px;
+    margin: 50px;
+    background-image: url("https://img.fruugo.com/product/9/75/1056892759_0340_0340.jpg");
+    background-size: cover;
+    transition: background-image 5s ease-in-out;
+    border-radius: 50%;
+
+    
+}
+
+.sudo:hover {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/030/691/603/small_2x/pretty-pretty-princess-2d-cartoon-illustraton-on-white-bac-free-photo.jpg");
+}
+.content{
+
+    text-align: center;
+    padding: 20px;
+     position: absolute;
+     left:50%;
+     bottom: 100px;
+     justify-content: center;
+     animation: move 1.5s forwards;
+     font-size: 20px;
+   } 
+
+   @keyframes move {
+    from {
+      top: -100px;
+
+      
+    }
+    to {
+      top: 20px;
+    }                       
+ }
+ @keyframes content1Div { 
+    0%   {transform: scale(1)  rotate(0deg);}
+    25%  {transform: scale(2) rotate(360deg);}
+    50%  {transform: scale(.5) rotate(360deg);}
+    100% {transform: scale(1) rotate(360deg);}
+}
+
+
+.content1{
+    text-align: center;
+    font-size: 20px;
+    animation-direction: alternate;
+    animation: rotation;
+    animation: content1Div 8s alternate ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+   
+    
+
+
+.sudo1 {
+    width: 230px;
+    height: 195px;
+    margin: 50px;
+    background-image:url("https://m.media-amazon.com/images/I/51Od4z+wAxL._AC_UF894,1000_QL80_.jpg");
+    background-size: cover;
+    transition: background-image 5s ease-in-out;
+    border-radius: 50%;
+    
+}
+    .sudo1:hover {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcp3BZeh8pN2szQSLKb3gXdmZec6gMCU2wDg&s");
+    }
+    .sudo2{
+        width: 230px;
+        height: 195px;
+        margin: 50px;
+        background-image: url("https://static.vecteezy.com/system/resources/previews/027/806/381/original/doraemon-cute-free-vector.jpg");
+        background-size: cover;
+        transition: background-image 5s ease-in-out;
+        border-radius: 50%;
+    }
+    
+    
+    
+    
+    .sudo2:hover {
+        background-image: url("https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_1280.jpg");
+    }
